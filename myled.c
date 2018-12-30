@@ -1,4 +1,4 @@
-Copyright (c) 2018 Shu Kobayashi
+/*Copyright (c) 2018 Shu Kobayashi
 
 This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -9,7 +9,7 @@ This program is free software: you can redistribute it and/or modify
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
   You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 #include <linux/module.h>
 #include <linux/fs.h>
@@ -20,7 +20,7 @@ This program is free software: you can redistribute it and/or modify
 #include <linux/uaccess.h>
 
 
-MODULE_AUTHOR("Ryuichi Ueda");
+MODULE_AUTHOR("Shu Kobayashi");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.1");
